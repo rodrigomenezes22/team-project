@@ -121,3 +121,67 @@ p {
     color: black;
     background-color: white;
 }
+
+footer {
+    background-color: black;
+    padding: 3rem 0px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.main-footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-footer-nav li a.is-active {
+    color: white;
+}
+
+.main-footer-nav li a:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+.main-footer-nav li {
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+}
+
+.purchase-nav {
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.purchase-nav li a:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+.left-nav {
+    margin: 3rem; 
+
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
