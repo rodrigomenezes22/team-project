@@ -205,3 +205,15 @@ footer {
     align-items: center;
     flex-grow: 1;
 }
+
+.container-images {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    
+}
+
+.image-wrapper {
+    width: 45%;
+}
+
