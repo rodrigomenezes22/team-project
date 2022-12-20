@@ -9,8 +9,7 @@ header {
     background-color: rgb(9, 9, 9);
     border-radius: 2px;
 
-
-    
+}
 .hero-title {
     font-family: 'Playfair Display', serif;
     font-size: 4rem;
@@ -112,4 +111,4 @@ p {
 .is-white {
     color: black;
     background-color: white;
-
+}
