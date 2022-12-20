@@ -60,6 +60,12 @@ p {
 }
 
 
+.h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 3rem 0px 1rem;
+}
+
 .container {
     width: 100%;
     max-width: 1600px;
@@ -210,10 +216,47 @@ footer {
     display: flex;
     width: 100%;
     max-width: 1600px;
+    flex-direction: row;
+    margin: 3rem auto;
     
 }
 
-.image-wrapper {
-    width: 45%;
+.col-50 {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+
+.image-wrapper {
+    width: 80%;
+}
+
+.image-wrapper img {
+    object-fit: contain;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-images {
+        flex-direction: column;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .h2 {
+        font-size: 2rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .container-footer {
+        flex-direction: column;
+    }
+}
