@@ -239,7 +239,35 @@ footer {
     width: 100%;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
+
+    nav {
+
+        display:none;
+        
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        color:white;
+        padding: .3rem;
+    }
+
+    .mobile-nav .fa-solid {
+        font-size: 24px;
+        padding: .5rem;
+
+    }
+
+ 
+
     .container-images {
         flex-direction: column;
     }
