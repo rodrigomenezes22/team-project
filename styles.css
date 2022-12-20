@@ -116,7 +116,7 @@ p {
     transition: box-shadow .7s, translate .7s;
 }
 
-.is-primary:hover {
+.is-primary:hover, .is-secondary:hover {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
     translate: -3px -3px;
 }
@@ -133,7 +133,7 @@ p {
     flex-direction: column;
     background-color: white;
     align-items: center;
-    padding: 50px;
+    padding: 5rem 0;
 }
 .FMB {
     font-size: 3em;
@@ -143,7 +143,9 @@ p {
 .sicons {
     display: flex;
     flex-direction: row;
-    column-gap: 100px;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
     font-size: 2.5em;
     padding: 0 0 50px;
 }
@@ -238,7 +240,44 @@ footer {
     object-fit: contain;
     width: 100%;
 }
+.vintage {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.vwords {
+    width: 50%;
+    color: white;
+    align-items: center;
+    padding: 5rem;
+    text-align: left;
+}
+.vwords h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin: 1rem 0;
+}
+.vwords p {
+    line-height: 1.4rem;
+    margin: 3rem 0;
+}
 
+
+.is-white {
+    color: black;
+    background-color: white;
+}
+
+
+.vcar {
+    background-image: url(https://www.mercedes-benz.com/en/_jcr_content/root/editorialhighlight/image/MQ7-0-image-20220722124103/mercedes-benz-home-teaser-classic-w116-1570x2784-08-2022.jpeg);
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 1/1;
+}
 .mobile-nav {
     display: none;
 }
@@ -287,4 +326,5 @@ footer {
     .container-footer {
         flex-direction: column;
     }
+
 }
